@@ -20,7 +20,7 @@ import cucumber.api.junit.Cucumber;
 		//to see the time taken by each step def
 		//plugin = {"usage"}
 		//plugin = {"pretty", "html:target/cucumber-reports", "json:target/cucumber-reports/Cucumber.json", "junit:target/cucumber-reports/Cucumber.xml"},
-		plugin = {"pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/report.html"},
+		plugin = {"pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/report.html", "json:target/cucumber-reports/Cucumber.json"},
 		monochrome = true
 		
 		)
