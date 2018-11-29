@@ -17,10 +17,10 @@ import cucumber.api.junit.Cucumber;
 		glue = {"stepDefinitions"},
 		dryRun = false,
 		//tags= {"@Functional"},
-		//just to see the time taken by each step definition
+		//just to see the time taken by each step 
 		//plugin = {"usage"}
 		//plugin = {"pretty", "html:target/cucumber-reports", "json:target/cucumber-reports/Cucumber.json", "junit:target/cucumber-reports/Cucumber.xml"},
-		plugin = {"pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/report.html", "json:target/cucumber-reports/Cucumber.json",
+		plugin = {"usage", "pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/report.html", "json:target/cucumber-reports/Cucumber.json",
 		"rerun:rerun/rerun.txt"		
 		},
 		monochrome = true
