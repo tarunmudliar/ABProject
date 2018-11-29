@@ -16,6 +16,7 @@ Feature: Login on Udio
     Then I am taken to Login Page
     And user enters details of "<Mobile Number>"
     And clicks Continue
+    And user waits for loader to disappear
     And user taps skip on Modal
     Then user lands on home page
 
