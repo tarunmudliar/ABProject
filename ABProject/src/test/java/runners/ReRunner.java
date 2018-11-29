@@ -11,7 +11,8 @@ import cucumber.api.junit.Cucumber;
 		glue = {"stepDefinitions"},
 		monochrome = true,
 		plugin = {"pretty", 
-				"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/rerunreport.html", "json:target/cucumber-reports/CucumberReRun.json"
+				"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:target/DesignedReports/rerunreport.html", "json:target/cucumber-reports/CucumberReRun.json" ,
+				"html:target/cucumber-reports"
 		}
 		
 		)
