@@ -18,6 +18,7 @@ public class OpenUdioSteps {
 	public void i_have_opened_browser() throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
 	    //throw new PendingException();
+		
 	
 		
 	}
@@ -27,6 +28,7 @@ public class OpenUdioSteps {
 	public void opened_Udio_website() throws Exception {
 	    // Write code here that turns the phrase above into concrete actions
 		ou.getUdio();
+		tc.getLog().Log.info("Opened Website successfully");
 	   // throw new PendingException();
 	}
 

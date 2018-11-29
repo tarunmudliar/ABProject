@@ -2,6 +2,7 @@ package managers;
 
 import org.openqa.selenium.WebDriver;
 
+import cucumber.TestContext;
 import pageObjects.OpenUdio;
 import pageObjects.Rediff;
 import pageObjects.UdioAccountType;
@@ -17,7 +18,7 @@ public class PageObjectManager {
 	private UdioHome u;
 	private UdioClaims ucr;
 	private Rediff rf;
-	
+	private TestContext cont;
 	public PageObjectManager(WebDriver driver){
 		
 		this.driver = driver;
